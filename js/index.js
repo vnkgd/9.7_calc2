@@ -60,7 +60,11 @@ for(var i = 0; i < keys.length; i++) {
 				decimalAdded = true;
 			}
 		}
-		
+
+		// VAL
+
+		// if(btnVal == '√') {
+
 		else {
 			input.innerHTML += btnVal;
 		}
@@ -68,3 +72,16 @@ for(var i = 0; i < keys.length; i++) {
 		e.preventDefault();
 	} 
 }
+
+// var input = document.querySelector('.screen');
+// 		var inputVal = input.innerHTML;
+// 		var btnVal = this.innerHTML;
+// 		var total;
+
+// document.getElementById('btn_sqrt').addEventListener('click', function () {
+	
+// 	const result = Math.sqrt(parseInt(inputWindow.value));
+//     operation = null;
+//     lastOperand = 0;
+//     input.innerHTML = result;
+// })
